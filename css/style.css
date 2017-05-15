@@ -1,0 +1,65 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div.btn-def-pv,
+div.btn-warn-pv {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.btn-def-pv {
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #333232;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-def-pv:hover {
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    color: #333232;
+    background-color: #CECECE;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.btn-warn-pv {
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #C42C2C;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-warn-pv:hover {
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    color: #C42C2C;
+    background-color: #CECECE;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 0.5s;
+}
